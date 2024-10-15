@@ -33,7 +33,7 @@ void messageArrived(MQTT::MessageData& md)
 
 int main(void){
    
-    printf("\r\nBluetronics - WiFi+MQTT Example Demo\n");
+    printf("\r\nWiFi+MQTT+SENSORS Example Demo\n");
 
     BSP_GYRO_Init();
     BSP_ACCELERO_Init();
